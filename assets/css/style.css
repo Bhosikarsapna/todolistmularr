@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(45deg,  rgb(255, 0, 0, .7), rgb(255, 165, 0, .7), rgb(255, 255, 0, .7), rgb(0, 128, 0, .7), rgb(0, 0, 255, .7), rgb(75, 0, 130, .7), rgb(238, 130, 238, .7));
+    /* background-image: url('https://images.unsplash.com/photo-1587135991058-8816b028691f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHdyaXRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */ 
+    /* background-attachment: fixed; */
+    /* background-color: mediumpurple; */
+}
+
+.form-control{
+    background-color: transparent!important;
+    border: 2px solid white;
+    box-shadow: 0px 0px 7px 7px white;
+    padding: 23px;
+    background-image: url('https://images.unsplash.com/photo-1682962374513-4d8ccda6fbbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODl8fGNvbG9yZnVsJTIwc3RvbmVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    /* background-attachment: fixed; */
+    /* background-color: mediumpurple;*/
+}
+
+#toDoForm .toDoItemGroup input {
+    width: 100%;
+    height: 50px;
+    color:aqua;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.form-control:disabled, .form-control{
+    background-color:aqua;
+    opacity: 1;
+}
+
+#toDoForm .toDoItemGroup{
+    flex-grow: 1;
+}
+
+#toDoForm .toDoItemGroup input{
+    width: 100%;
+    height: 50px;
+}
+/* 
+#toDoForm .toDoItemGroup button{
+    height: 50px;
+} */
+
+#toDoForm button.btn{
+    height: 50px;
+    box-shadow: 0px 0px 2px 2px royalblue;
+    font-weight: 500;
+    font-size: 1.25rem;
+
+}
+
+.form-group{
+    margin-bottom: 0 !important;
+}
+
+.list-group-item{
+    color:white;
+    color: 20px;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: .35rem .35rem;
+}
+
+#toDoList i{
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+#toDolist .edit{
+    color: blue;
+}
+
+#toDoList .delete{
+    color: red;
+}
+
+#toDoList .span{
+    font-size: 1.25rem;
+}
+
+.form-control::placeholder{
+    color: white;
+}
